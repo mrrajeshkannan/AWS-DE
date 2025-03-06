@@ -60,13 +60,15 @@ Click Create bucket.
 
 Question 1:-   S3 is global service but why do we require region selection?
 
-Because for low latency and faster performance
+    Ans:Because for low latency and faster performance
 
 Question 2:- S3 CAn we upload 10 TB data at once it allows unlimited data?
 
-No at a time it will accept upto 5 TB data we can saprate into parts.
+    Ans: No at a time it will accept upto 5 TB data we can saprate into parts.
 
 Question 3 : - How many Bucket we can create in 1 aws account ?
 
-100 bucket we can create if we want more we have to raice ticket to AWS.
+    Ans: 100 bucket we can create if we want more we have to raice ticket to AWS.
+
+
 
