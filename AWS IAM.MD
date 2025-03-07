@@ -22,7 +22,9 @@ Example: A Developers group may have access to EC2, while a Data Engineers group
 An IAM role is not tied to a specific user but can be assumed by AWS services or users.
 Used when AWS services (like Lambda, EC2, or Glue) need permissions to access other AWS resources.
 Example: An EC2 instance role allows an EC2 instance to access S3 without using access keys.
-4. IAM Policies
+
+
+## 4. IAM Policies
 Policies define what actions are allowed or denied for a user, group, or role.
 
 Policies are written in JSON format and specify:
@@ -36,12 +38,14 @@ Managed Policies: Predefined policies by AWS (e.g., AdministratorAccess, AmazonS
 Customer Managed Policies: Custom policies created by users.
 Inline Policies: Policies embedded directly in a user, group, or role.
 
-5. IAM Access Control Mechanisms
+## 5. IAM Access Control Mechanisms
 Least Privilege Principle: Grant only the permissions needed to perform a task.
 MFA (Multi-Factor Authentication): Adds an extra layer of security by requiring a second authentication method.
 IAM Access Analyzer: Helps review permissions and identify overly permissive access.
 AWS Organizations: Manages IAM policies across multiple AWS accounts.
-Best Practices for Using AWS IAM
+
+
+### Best Practices for Using AWS IAM
 Follow the Principle of Least Privilege – Grant only the permissions needed.
 Enable MFA for all IAM Users – Adds an extra security layer.
 Use IAM Roles Instead of Access Keys – Avoid storing long-term access keys.
