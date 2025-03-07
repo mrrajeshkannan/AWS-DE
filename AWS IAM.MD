@@ -30,18 +30,26 @@ Policies define what actions are allowed or denied for a user, group, or role.
 Policies are written in JSON format and specify:
 
 Effect: Allow or Deny
+
 Actions: The AWS service and operations (e.g., s3:PutObject)
+
 Resources: The AWS resources affected (e.g., arn:aws:s3:::my-bucket/*)
+
 Types of Policies:
 
 Managed Policies: Predefined policies by AWS (e.g., AdministratorAccess, AmazonS3ReadOnlyAccess).
+
 Customer Managed Policies: Custom policies created by users.
+
 Inline Policies: Policies embedded directly in a user, group, or role.
 
 ## 5. IAM Access Control Mechanisms
 Least Privilege Principle: Grant only the permissions needed to perform a task.
+
 MFA (Multi-Factor Authentication): Adds an extra layer of security by requiring a second authentication method.
+
 IAM Access Analyzer: Helps review permissions and identify overly permissive access.
+
 AWS Organizations: Manages IAM policies across multiple AWS accounts.
 
 
