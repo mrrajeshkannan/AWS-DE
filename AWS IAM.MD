@@ -5,17 +5,20 @@ AWS Identity and Access Management (IAM) is a service that helps you securely ma
 
 It enables you to control who can access your AWS account, what they can do, and which resources they can use.
 
-### Key Concepts of AWS IAM
+## Key Concepts of AWS IAM
 
-1. IAM Users
+## 1. IAM Users
 A user represents a person or an application that interacts with AWS.
 Each user has unique credentials (username and password or access keys).
 Users can be assigned permissions to access specific AWS services.
-2. IAM Groups
+
+## 2. IAM Groups
 A group is a collection of IAM users.
 Instead of assigning permissions to individual users, you assign permissions to a group, and all users in that group inherit those permissions.
 Example: A Developers group may have access to EC2, while a Data Engineers group may have access to S3 and Redshift.
-3. IAM Roles
+
+
+## 3. IAM Roles
 An IAM role is not tied to a specific user but can be assumed by AWS services or users.
 Used when AWS services (like Lambda, EC2, or Glue) need permissions to access other AWS resources.
 Example: An EC2 instance role allows an EC2 instance to access S3 without using access keys.
