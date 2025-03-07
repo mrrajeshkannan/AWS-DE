@@ -55,8 +55,13 @@ AWS Organizations: Manages IAM policies across multiple AWS accounts.
 
 ### Best Practices for Using AWS IAM
 Follow the Principle of Least Privilege – Grant only the permissions needed.
+
 Enable MFA for all IAM Users – Adds an extra security layer.
+
 Use IAM Roles Instead of Access Keys – Avoid storing long-term access keys.
+
 Regularly Review IAM Policies – Remove unnecessary permissions.
+
 Use AWS Organizations & SCPs – Manage access across multiple AWS accounts.
+
 Monitor IAM Activity with AWS CloudTrail – Tracks API calls and changes to IAM users, roles, and policies.
